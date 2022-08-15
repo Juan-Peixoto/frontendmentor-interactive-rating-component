@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+}
+
+html {
+  font-family: 'Overpass', sans-serif;
+  font-size: 15px;
+}
+/*# sourceMappingURL=main.css.map */
