@@ -39,6 +39,8 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- SASS pre processor
+- Google Fonts
 
 ## Author
 - Frontend Mentor - [@Juan-Peixoto](https://www.frontendmentor.io/profile/Juan-Peixoto)
