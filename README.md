@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/semantic-html5markup-css-custom-properties-flexbox-mobilefirst-workf-0WdNxWrkkX)
-- Live Site URL: [See live version here](https://juan-peixoto.github.io/frontendmentor-product-preview-card-component/)
+- Live Site URL: [See live version here](https://juan-peixoto.github.io/frontendmentor-interactive-rating-component/)
 
 ## My process
 
