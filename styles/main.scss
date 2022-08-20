@@ -24,17 +24,11 @@ body {
             }
 
             h2 {
-                color: $neutral1;
-                font-weight: 400;
-                font-size: 2rem;
-                margin-bottom: 10px;
+                @extend .title;
             }
 
             p {
-                color: $neutral2;
-                font-weight: 400;
-                margin-bottom: 20px;
-                line-height: 24px;
+                @extend .text;
             }
 
             & > div {
@@ -50,7 +44,7 @@ body {
                     height: 50px;
                     width: 50px;
                     border-radius: 100%;
-                    background-color: rgba(206, 206, 206, 0.068);
+                    background-color: $special;
                     color: $neutral2;
                     font-weight: 700;
 
@@ -75,11 +69,42 @@ body {
                 &:hover {
                     background-color: lighten($primary, 10);
                 }
+
+                &:focus {
+                    background-color: $neutral1;
+                    color: $primary;
+                }
             }
         }
     }
 
     div#thankyou-state {
         @extend .rating-component;
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+
+        svg {
+            margin-bottom: 20px;
+        }
+
+        span {
+            padding: 5px 20px;
+            color: $primary;
+            background-color: $special;
+            border-radius: 20px;
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            @extend .title;
+        }
+
+        p {
+            @extend .text;
+            text-align: center;
+        }
     }
 }

@@ -41,6 +41,20 @@ html, body {
   color: white;
 }
 
+.title, body div#rating > div h2, body div#thankyou-state h2 {
+  color: white;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.text, body div#rating > div p, body div#thankyou-state p {
+  color: #959eac;
+  font-weight: 400;
+  margin-bottom: 20px;
+  line-height: 24px;
+}
+
 @media screen and (min-width: 400px) {
   div.rating-component, body div#rating, body div#thankyou-state {
     left: 50vw;
@@ -66,20 +80,6 @@ body div#rating > div svg {
   padding: 15px;
   border-radius: 100%;
   margin-bottom: 30px;
-}
-
-body div#rating > div h2 {
-  color: white;
-  font-weight: 400;
-  font-size: 2rem;
-  margin-bottom: 10px;
-}
-
-body div#rating > div p {
-  color: #959eac;
-  font-weight: 400;
-  margin-bottom: 20px;
-  line-height: 24px;
 }
 
 body div#rating > div > div {
@@ -130,5 +130,40 @@ body div#rating > div button {
 
 body div#rating > div button:hover {
   background-color: #fc9145;
+}
+
+body div#rating > div button:focus {
+  background-color: white;
+  color: #fb7413;
+}
+
+body div#thankyou-state {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+}
+
+body div#thankyou-state svg {
+  margin-bottom: 20px;
+}
+
+body div#thankyou-state span {
+  padding: 5px 20px;
+  color: #fb7413;
+  background-color: rgba(206, 206, 206, 0.068);
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+body div#thankyou-state p {
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
