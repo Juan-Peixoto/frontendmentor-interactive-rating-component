@@ -3,8 +3,83 @@
 @import "classes";
 @import "responsive";
 
-html {
-    font-family: 'Overpass', sans-serif; // Design Family
-    font-size: 15px; // Design font
-}
+body {
+    background-color: $neutral5;
+    position: relative;
+    padding: 0px 20px;
 
+    div#rating {
+        @extend .rating-component;
+
+        & > div {
+            padding: 30px;
+
+            svg {
+                height: 48px;
+                width: 48px;
+                background-color: rgba(206, 206, 206, 0.068);
+                padding: 15px;
+                border-radius: 100%;
+                margin-bottom: 30px;
+            }
+
+            h2 {
+                color: $neutral1;
+                font-weight: 400;
+                font-size: 2rem;
+                margin-bottom: 10px;
+            }
+
+            p {
+                color: $neutral2;
+                font-weight: 400;
+                margin-bottom: 20px;
+                line-height: 24px;
+            }
+
+            & > div {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 30px;
+
+                span {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 100%;
+                    background-color: rgba(206, 206, 206, 0.068);
+                    color: $neutral2;
+                    font-weight: 700;
+
+                    &:hover {
+                        background-color: $neutral2;
+                        color: $neutral1;
+                    }
+                }
+            }
+
+            button {
+                color: $neutral1;
+                font-weight: 400;
+                background-color: $primary;
+                border: none;
+                width: 100%;
+                border-radius: 20px;
+                font-size: 1.2rem;
+                height: 45px;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: lighten($primary, 10);
+                }
+            }
+        }
+    }
+
+    div#thankyou-state {
+        @extend .rating-component;
+    }
+}
