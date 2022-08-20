@@ -37,8 +37,8 @@ html, body {
 }
 
 .selected {
-  background-color: #fb7413;
-  color: white;
+  background-color: #fb7413 !important;
+  color: white !important;
 }
 
 .title, body div#rating > div h2, body div#thankyou-state h2 {
