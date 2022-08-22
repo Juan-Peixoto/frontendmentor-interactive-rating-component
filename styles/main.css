@@ -15,10 +15,6 @@ html, body {
 }
 
 .rating-component, body div#rating, body div#thankyou-state {
-  position: relative;
-  top: 50vh;
-  -webkit-transform: translatey(-50%);
-          transform: translatey(-50%);
   max-width: 400px;
   height: 425px;
   background-image: -webkit-gradient(linear, left top, right bottom, from(#1d2025), to(#252d37));
@@ -55,18 +51,20 @@ html, body {
   line-height: 24px;
 }
 
-@media screen and (min-width: 400px) {
-  div.rating-component, body div#rating, body div#thankyou-state {
-    left: 50vw;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-  }
-}
-
 body {
   background-color: #121417;
   position: relative;
   padding: 0px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
 }
 
 body div#rating > div {

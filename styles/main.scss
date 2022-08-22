@@ -7,6 +7,10 @@ body {
     background-color: $neutral5;
     position: relative;
     padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 
     div#rating {
         @extend .rating-component;
