@@ -1,6 +1,6 @@
-# Frontend Mentor - Product preview card component solution
+# Frontend Mentor - Interactive Rating Component solution
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/semantic-html5markup-css-custom-properties-flexbox-mobilefirst-workf-0WdNxWrkkX)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/vanilla-javascript-sass-and-mobile-first-workflow-QXlWRoJ6vM)
 - Live Site URL: [See live version here](https://juan-peixoto.github.io/frontendmentor-interactive-rating-component/)
 
 ## My process
